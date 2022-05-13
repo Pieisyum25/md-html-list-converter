@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>List Converter</title>
+        <meta charset="UTF-8">
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body onload="init()">
+
+        <main>
+
+        <h1>List Converter</h1>
+
+        <h3>Enter List:</h3>
+        <form>
+            Enter Plain-Text List:
+            <br>
+            <textarea name="plain-text_list" id="plain-text_list" rows="10" cols="100" onkeyup="updateText(this)"></textarea>
+            <br>
+            <br>
+            Or, Enter HTML List:
+            <br>
+            <textarea name="html_list" id="html_list" rows="10" cols="100" onkeyup="updateText(this)"></textarea>
+        </form>
+
+        </main>
+
+    </body>
+
+</html>
